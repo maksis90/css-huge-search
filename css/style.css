@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  color: #c2c2c2;
+  min-height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 80%;
+  margin:  25px auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 50px;
+}
+form {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+
+input {
+  border: none;
+  width: 100%;
+  background: #f1f1f1;
+  font-size: 85px;
+  font-weight: 600;
+  color: #ec5a62;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background: url('../images/magnifier.svg') no-repeat;
+  background-size: cover;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 10%; 
+  outline: 0;
+}
+
+input::placeholder {
+  color: #c2c2c2;
+}
+
+.people {
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  left: 0;
+}
+
+.popular {
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.recent {
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  right: 0;
+}
+
+.title {
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: 600;
+ margin: 20px auto;
+}
+
+.result {
+  width: 100%;
+  line-height: 70px; 
+  list-style-type: none;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.result a {
+  text-decoration: none;
+  display: block;
+  background: rgba(118, 117, 128, 0.05);
+  cursor: pointer;
+}
+
+.result a:hover {
+  color: #ec5a62;
+  background: rgba(118, 117, 128, 0.1);
+}
+
+.result a p:hover {
+  color: #ec5a62;
+}
+
+.people img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+p {
+  display: inline-block;
+  color: rgba(118, 117, 128, 0.5);
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+
+
+
